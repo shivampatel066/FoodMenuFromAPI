@@ -14,6 +14,9 @@
 		8FCCA838283AABF100B29175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCCA836283AABF100B29175 /* LaunchScreen.storyboard */; };
 		8FCCA844283AAC7700B29175 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCA843283AAC7700B29175 /* FoodListViewController.swift */; };
 		8FCCA846283AB1D700B29175 /* FoodMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCA845283AB1D700B29175 /* FoodMenuTableViewCell.swift */; };
+		8FCCA848283AB6C600B29175 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCA847283AB6C600B29175 /* FoodModel.swift */; };
+		8FCCA84C283AB73F00B29175 /* UIImageView+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCA84B283AB73F00B29175 /* UIImageView+UIImage.swift */; };
+		8FCCA84E283AB74E00B29175 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCA84D283AB74E00B29175 /* APIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8FCCA839283AABF100B29175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FCCA843283AAC7700B29175 /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
 		8FCCA845283AB1D700B29175 /* FoodMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuTableViewCell.swift; sourceTree = "<group>"; };
+		8FCCA847283AB6C600B29175 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		8FCCA84B283AB73F00B29175 /* UIImageView+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+UIImage.swift"; sourceTree = "<group>"; };
+		8FCCA84D283AB74E00B29175 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		8FCCA82A283AABF000B29175 /* FoodMenuFromAPI */ = {
 			isa = PBXGroup;
 			children = (
+				8FCCA84A283AB71F00B29175 /* Helper */,
+				8FCCA849283AB71100B29175 /* Extension */,
 				8FCCA83F283AAC3200B29175 /* Model */,
 				8FCCA840283AAC3A00B29175 /* View */,
 				8FCCA841283AAC3F00B29175 /* Controller */,
@@ -74,6 +82,7 @@
 		8FCCA83F283AAC3200B29175 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FCCA847283AB6C600B29175 /* FoodModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +109,22 @@
 				8FCCA831283AABF000B29175 /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8FCCA849283AB71100B29175 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8FCCA84B283AB73F00B29175 /* UIImageView+UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8FCCA84A283AB71F00B29175 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8FCCA84D283AB74E00B29175 /* APIHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCCA84E283AB74E00B29175 /* APIHelper.swift in Sources */,
+				8FCCA84C283AB73F00B29175 /* UIImageView+UIImage.swift in Sources */,
+				8FCCA848283AB6C600B29175 /* FoodModel.swift in Sources */,
 				8FCCA844283AAC7700B29175 /* FoodListViewController.swift in Sources */,
 				8FCCA82C283AABF000B29175 /* AppDelegate.swift in Sources */,
 				8FCCA846283AB1D700B29175 /* FoodMenuTableViewCell.swift in Sources */,
